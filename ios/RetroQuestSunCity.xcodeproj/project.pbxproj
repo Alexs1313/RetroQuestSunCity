@@ -8,22 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-RetroQuestSunCity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-RetroQuestSunCity.a */; };
+		0EFB2A6AEA544492993AEA7F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2522138F4ED749A3B00FFE00 /* Montserrat-SemiBold.ttf */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		1524D59265004A7B9A4B9023 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AE321B760EF4AAB84C79458 /* Montserrat-ExtraBold.ttf */; };
+		28C12527B4774DD0AC0C69E7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90071FCF11034F45895CBF7D /* Montserrat-Regular.ttf */; };
+		2AE6CB00680C47ADA18C71F8 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30380117AF848C9B9261233 /* Montserrat-Medium.ttf */; };
+		5521E65AB94F4415905E3E24 /* Cormorant-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2260BA898B644BB90B5382E /* Cormorant-Bold.ttf */; };
+		5AE1E06401E74856AB94FCEE /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14B7ADBE65CE4BAF81EC5631 /* Montserrat-Black.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		900659C163244E62A38561CE /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FE870ED8B9845AABFB00587 /* Montserrat-Bold.ttf */; };
+		B8E714420B284C7899BC70BD /* Roboto_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11AFFBB1AD764A0A8E399638 /* Roboto_Condensed-Bold.ttf */; };
+		BC280B50D8E844B7A2BC9D22 /* Roboto_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86FA3A9CD6C04576B1B39B80 /* Roboto_Condensed-SemiBold.ttf */; };
+		D1505A842E7AA7EC007C21E1 /* jazz-restaurant-cafe-music-370262.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D1505A832E7AA7EC007C21E1 /* jazz-restaurant-cafe-music-370262.mp3 */; };
+		D1505A862E7AA8E3007C21E1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A852E7AA8E2007C21E1 /* AVFoundation.framework */; };
+		D1505A882E7AA8F5007C21E1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A872E7AA8F5007C21E1 /* AudioToolbox.framework */; };
+		D1505A8A2E7AA902007C21E1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1505A892E7AA902007C21E1 /* AVKit.framework */; };
+		D52326BA43E14078809A1DF6 /* Cormorant-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 555AB8109FF24111956288F8 /* Cormorant-SemiBold.ttf */; };
 		F2B92C66F4F1C068BDF814ED /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11AFFBB1AD764A0A8E399638 /* Roboto_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-Bold.ttf"; path = "../assets/fonts/Roboto_Condensed-Bold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RetroQuestSunCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroQuestSunCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RetroQuestSunCity/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RetroQuestSunCity/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = RetroQuestSunCity/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		14B7ADBE65CE4BAF81EC5631 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		2522138F4ED749A3B00FFE00 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-RetroQuestSunCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroQuestSunCity.debug.xcconfig"; path = "Target Support Files/Pods-RetroQuestSunCity/Pods-RetroQuestSunCity.debug.xcconfig"; sourceTree = "<group>"; };
+		555AB8109FF24111956288F8 /* Cormorant-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cormorant-SemiBold.ttf"; path = "../assets/fonts/Cormorant-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-RetroQuestSunCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetroQuestSunCity.release.xcconfig"; path = "Target Support Files/Pods-RetroQuestSunCity/Pods-RetroQuestSunCity.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-RetroQuestSunCity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RetroQuestSunCity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE870ED8B9845AABFB00587 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = RetroQuestSunCity/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RetroQuestSunCity/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86FA3A9CD6C04576B1B39B80 /* Roboto_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto_Condensed-SemiBold.ttf"; path = "../assets/fonts/Roboto_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		8AE321B760EF4AAB84C79458 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		90071FCF11034F45895CBF7D /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D1505A832E7AA7EC007C21E1 /* jazz-restaurant-cafe-music-370262.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jazz-restaurant-cafe-music-370262.mp3"; sourceTree = "<group>"; };
+		D1505A852E7AA8E2007C21E1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D1505A872E7AA8F5007C21E1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D1505A892E7AA902007C21E1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E2260BA898B644BB90B5382E /* Cormorant-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cormorant-Bold.ttf"; path = "../assets/fonts/Cormorant-Bold.ttf"; sourceTree = "<group>"; };
+		E30380117AF848C9B9261233 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -32,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1505A8A2E7AA902007C21E1 /* AVKit.framework in Frameworks */,
+				D1505A882E7AA8F5007C21E1 /* AudioToolbox.framework in Frameworks */,
+				D1505A862E7AA8E3007C21E1 /* AVFoundation.framework in Frameworks */,
 				0C80B921A6F3F58F76C31292 /* libPods-RetroQuestSunCity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,6 +70,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C1A8B4C9BE443D9C07FFE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D1505A832E7AA7EC007C21E1 /* jazz-restaurant-cafe-music-370262.mp3 */,
+				E2260BA898B644BB90B5382E /* Cormorant-Bold.ttf */,
+				555AB8109FF24111956288F8 /* Cormorant-SemiBold.ttf */,
+				14B7ADBE65CE4BAF81EC5631 /* Montserrat-Black.ttf */,
+				6FE870ED8B9845AABFB00587 /* Montserrat-Bold.ttf */,
+				8AE321B760EF4AAB84C79458 /* Montserrat-ExtraBold.ttf */,
+				E30380117AF848C9B9261233 /* Montserrat-Medium.ttf */,
+				90071FCF11034F45895CBF7D /* Montserrat-Regular.ttf */,
+				2522138F4ED749A3B00FFE00 /* Montserrat-SemiBold.ttf */,
+				11AFFBB1AD764A0A8E399638 /* Roboto_Condensed-Bold.ttf */,
+				86FA3A9CD6C04576B1B39B80 /* Roboto_Condensed-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* RetroQuestSunCity */ = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +103,9 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D1505A892E7AA902007C21E1 /* AVKit.framework */,
+				D1505A872E7AA8F5007C21E1 /* AudioToolbox.framework */,
+				D1505A852E7AA8E2007C21E1 /* AVFoundation.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-RetroQuestSunCity.a */,
 			);
@@ -75,6 +127,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				02C1A8B4C9BE443D9C07FFE6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,6 +214,17 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				F2B92C66F4F1C068BDF814ED /* PrivacyInfo.xcprivacy in Resources */,
+				5521E65AB94F4415905E3E24 /* Cormorant-Bold.ttf in Resources */,
+				D52326BA43E14078809A1DF6 /* Cormorant-SemiBold.ttf in Resources */,
+				5AE1E06401E74856AB94FCEE /* Montserrat-Black.ttf in Resources */,
+				900659C163244E62A38561CE /* Montserrat-Bold.ttf in Resources */,
+				1524D59265004A7B9A4B9023 /* Montserrat-ExtraBold.ttf in Resources */,
+				2AE6CB00680C47ADA18C71F8 /* Montserrat-Medium.ttf in Resources */,
+				D1505A842E7AA7EC007C21E1 /* jazz-restaurant-cafe-music-370262.mp3 in Resources */,
+				28C12527B4774DD0AC0C69E7 /* Montserrat-Regular.ttf in Resources */,
+				0EFB2A6AEA544492993AEA7F /* Montserrat-SemiBold.ttf in Resources */,
+				B8E714420B284C7899BC70BD /* Roboto_Condensed-Bold.ttf in Resources */,
+				BC280B50D8E844B7A2BC9D22 /* Roboto_Condensed-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

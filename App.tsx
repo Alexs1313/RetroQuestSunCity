@@ -1,45 +1,32 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { NavigationContainer } from '@react-navigation/native';
+import Retroqueststacknv from './RetroQuest/retroquestnav/Retroqueststacknv';
+import { RetroQuestLocProvider } from './RetroQuest/retroqueststore/retroquestcntx';
+import Toast from 'react-native-toast-message';
+import Retroquestwlcldr from './RetroQuest/retroquestcmpnts/Retroquestwlcldr';
+import { useEffect, useState } from 'react';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+const App = () => {
+  const [startRetroQuestWlcmscrLoader, setStartRetroQuestWlcmscrLoader] =
+    useState(false);
 
-function App() {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  return (
-    <SafeAreaProvider>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
-    </SafeAreaProvider>
-  );
-}
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
+  useEffect(() => {
+    setTimeout(() => {
+      setStartRetroQuestWlcmscrLoader(true);
+    }, 5000);
+  }, []);
 
   return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
+    <NavigationContainer>
+      <RetroQuestLocProvider>
+        {startRetroQuestWlcmscrLoader ? (
+          <Retroqueststacknv />
+        ) : (
+          <Retroquestwlcldr />
+        )}
+      </RetroQuestLocProvider>
+      <Toast position="top" topOffset={55} />
+    </NavigationContainer>
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
+};
 
 export default App;
