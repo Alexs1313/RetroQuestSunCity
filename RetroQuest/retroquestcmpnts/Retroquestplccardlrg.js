@@ -297,7 +297,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: '#FFD542',
     marginBottom: 8,
-    width: '30%',
+    width: 180,
     left: 18,
     textAlign: 'center',
   },
