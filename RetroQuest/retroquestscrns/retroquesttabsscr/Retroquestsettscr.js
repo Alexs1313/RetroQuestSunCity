@@ -5,6 +5,7 @@ import {
   Alert,
   Image,
   ImageBackground,
+  Platform,
   Share,
   StyleSheet,
   TouchableOpacity,
@@ -77,23 +78,26 @@ const Retroquestsettscr = () => {
           >
             <TouchableOpacity
               activeOpacity={0.7}
-              onPress={() => toggleRetroQuestMusic(!isEnblRetroQuestMus)}
+              onPress={() =>
+                toggleRetroQuestNotifications(!isEnblRetroQuestNot)
+              }
             >
               <ImageBackground
                 source={require('../../../assets/images/retroquuestsettbtn.png')}
                 style={styles.retroquestsettbtn}
               >
-                {isEnblRetroQuestMus ? (
+                {isEnblRetroQuestNot ? (
                   <Image
-                    source={require('../../../assets/images/retroquuestsoundact.png')}
+                    source={require('../../../assets/images/retroquuestnotact.png')}
                   />
                 ) : (
                   <Image
-                    source={require('../../../assets/images/retroquuestsound.png')}
+                    source={require('../../../assets/images/retroquuestnot.png')}
                   />
                 )}
               </ImageBackground>
             </TouchableOpacity>
+
             <TouchableOpacity
               activeOpacity={0.7}
               onPress={() => toggleRetroQuestVibration(!isEnblRetroQuestVibr)}
@@ -123,27 +127,28 @@ const Retroquestsettscr = () => {
               marginTop: 53,
             }}
           >
-            <TouchableOpacity
-              activeOpacity={0.7}
-              onPress={() =>
-                toggleRetroQuestNotifications(!isEnblRetroQuestNot)
-              }
-            >
-              <ImageBackground
-                source={require('../../../assets/images/retroquuestsettbtn.png')}
-                style={styles.retroquestsettbtn}
+            {Platform.OS === 'ios' && (
+              <TouchableOpacity
+                activeOpacity={0.7}
+                onPress={() => toggleRetroQuestMusic(!isEnblRetroQuestMus)}
               >
-                {isEnblRetroQuestNot ? (
-                  <Image
-                    source={require('../../../assets/images/retroquuestnotact.png')}
-                  />
-                ) : (
-                  <Image
-                    source={require('../../../assets/images/retroquuestnot.png')}
-                  />
-                )}
-              </ImageBackground>
-            </TouchableOpacity>
+                <ImageBackground
+                  source={require('../../../assets/images/retroquuestsettbtn.png')}
+                  style={styles.retroquestsettbtn}
+                >
+                  {isEnblRetroQuestMus ? (
+                    <Image
+                      source={require('../../../assets/images/retroquuestsoundact.png')}
+                    />
+                  ) : (
+                    <Image
+                      source={require('../../../assets/images/retroquuestsound.png')}
+                    />
+                  )}
+                </ImageBackground>
+              </TouchableOpacity>
+            )}
+
             <TouchableOpacity activeOpacity={0.7} onPress={shareRetroQuest}>
               <ImageBackground
                 source={require('../../../assets/images/retroquuestsettbtn.png')}

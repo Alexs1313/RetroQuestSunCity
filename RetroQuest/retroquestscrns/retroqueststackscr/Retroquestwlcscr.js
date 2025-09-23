@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { Image, Platform, StyleSheet, Text, View } from 'react-native';
 import Retroquestapplayout from '../../retroquestcmpnts/Retroquestapplayout';
 import { useState } from 'react';
 import Retroquestmnbt from '../../retroquestcmpnts/Retroquestmnbt';
@@ -7,7 +7,10 @@ import { useNavigation } from '@react-navigation/native';
 export const retroquestwldta = [
   {
     retroquestimg: require('../../../assets/images/retroquestwl1.png'),
-    retroquestttl: 'Welcome to Retro Quest Sun City',
+    retroquestttl:
+      Platform.OS === 'android'
+        ? 'Welcome to Dragon Quest Sun City'
+        : 'Welcome to Retro Quest Sun City',
     retroquestsbt:
       'A neon-styled guide to Magdeburg’s best cafés, bars, and restaurants—mapped, rated, and gamified.',
     retroquestbtntxt: 'NEXT',

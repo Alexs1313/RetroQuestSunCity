@@ -5,6 +5,7 @@ import {
   ImageBackground,
   StyleSheet,
   ScrollView,
+  Platform,
 } from 'react-native';
 import { WebView } from 'react-native-webview';
 
@@ -78,7 +79,14 @@ const Retroquestwlcldr = () => {
         showsVerticalScrollIndicator={false}
       >
         <View style={styles.retroquestwrp}>
-          <Image source={require('../../assets/images/retroquestldr.png')} />
+          {Platform.OS === 'ios' ? (
+            <Image source={require('../../assets/images/retroquestldr.png')} />
+          ) : (
+            <Image
+              source={require('../../assets/images/dragonquesticon.png')}
+              style={{ width: 360, height: 360, borderRadius: 12 }}
+            />
+          )}
         </View>
 
         <View style={styles.retroquestldrwrp}>
